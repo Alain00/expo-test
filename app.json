@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "foo Order",
+    "slug": "com-foo-client",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foo.fooclient",
+      "buildNumber": "1.0.2"
+    },
+    "android": {
+      "permissions": [],
+      "package": "com.foo.fooclient",
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "notification": {
+      "color": "#004E97"
+    }
+  }
+}
